@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<Style type = "text/css">
+			p{color:#F00;}
+			/* .클래스명 -> 해당 클래스값을 가진 태그에 CSS를 적용 */
+			.text{color:#00F;}
+			
+			/* 태그명.클래스명 -> 해당 태그 중에서 클래스명을 갖고 있는 태그만 CSS를 적용시킨다. */
+			p.text{color : #0F0;}
+		</Style>
+	</head>
+		<body>
+			<!-- CSS SELECTOR(CSS 식별자)
+			- class
+				- 스타일 변경만을 위해 사용되는 속성
+				- 똑같은 태그가 있을 때 구별하기 위한 식별자가 된다. -->
+				<h1 class="text">CSS 수업입니다.</h1>
+				
+				<p> CSS 식별자 연습중</p>
+				<p class="text"> CSS 식별자 연습중2</p>
+		</body>
+</html>
